@@ -4,6 +4,6 @@
 
 ## Pack and deploy to Bintray
 
-1. Update `VERSION` in `Jenkinsfile`
+1. Update `version.txt`
 2. Push to GitHub
 3. :coffeetime:

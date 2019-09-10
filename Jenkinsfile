@@ -19,7 +19,7 @@ pipeline {
           }
         }
         sh 'dotnet test FINT.Model.Arkiv.Tests'
-        sh 'dotnet msbuild -t:build,pack -p:Configuration=Release FINT.Model.Arkiv.sln'
+        sh 'dotnet msbuild -t:clean,build,pack -p:Configuration=Release FINT.Model.Arkiv.sln'
         stash includes: '**/Release/*.nupkg', name: 'libs'
       }
     }
