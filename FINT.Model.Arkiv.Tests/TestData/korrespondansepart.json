@@ -1,0 +1,17 @@
+{
+	"organisasjonsnummer": {
+		"identifikatorverdi": "983219802"
+	},
+	"adresse": {
+		"adresselinje": [
+			"Henny Tanbergs vei 4"
+		],
+		"postnummer": "3038",
+		"poststed": "DRAMMEN"
+	},
+	"kontaktinformasjon": {
+		"epostadresse": "asgeir@twingine.no"
+	},
+	"korrespondansepartNavn": "Twingine Expert Solutions",
+	"kontaktperson": "Asgeir S. Nilsen"
+}

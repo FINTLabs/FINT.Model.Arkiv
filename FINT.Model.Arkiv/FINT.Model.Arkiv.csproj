@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <Version>$([System.IO.File]::ReadAllText("version.txt"))</Version>
+    <Authors>FINT</Authors>
+    <PackageTags>fint</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- PackageReference Include="XXX" Version="$(Version)" / -->
+    <PackageReference Include="FINT.Model.Resource.Administrasjon" Version="3.3.0" />
+    <PackageReference Include="FINT.Model.Resource" Version="1.0.1" />
+    <PackageReference Include="FINT.Model.Resource.Felles" Version="3.3.0" />
+  </ItemGroup>
+
+</Project>
