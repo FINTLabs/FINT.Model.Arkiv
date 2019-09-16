@@ -241,6 +241,9 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 
-.idea
+.idea/
 
 .DS_Store
+
+# Visual Studio Code
+/.vscode/

@@ -14,6 +14,7 @@ namespace FINT.Model.Administrasjon.Arkiv
     {
 
     
+        public Identifikator KildesystemId { get; set; }
         public Identifikator SystemId { get; set; }
         
         public ArkivressursResource()
