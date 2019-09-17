@@ -14,6 +14,8 @@ namespace FINT.Model.Administrasjon.Arkiv
     {
 
     
+        public Periode Gyldighetsperiode { get; set; }
+        public string Navn { get; set; }
         public Identifikator SystemId { get; set; }
         
         public AdministrativEnhetResource()
