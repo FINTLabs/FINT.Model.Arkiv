@@ -37,9 +37,9 @@ namespace FINT.Model.Administrasjon.Arkiv
      
             
 
-        public void AddArkivressurs(Link link)
+        public void AddOrganisasjonselement(Link link)
         {
-            AddLink("arkivressurs", link);
+            AddLink("organisasjonselement", link);
         }
     }
 }

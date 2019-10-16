@@ -13,8 +13,8 @@ namespace FINT.Model.Administrasjon.Arkiv
 		public enum Relasjonsnavn
         {
 			PERSONALRESSURS,
-			ADMINISTRATIVENHET,
-			ROLLE
+			AUTORISASJON,
+			TILGANG
         }
         
 	

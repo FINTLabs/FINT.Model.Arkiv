@@ -12,12 +12,15 @@ namespace FINT.Model.Administrasjon.Arkiv
 	public class Tilgang {
 		public enum Relasjonsnavn
         {
-			ROLLE,
-			TILGANGSRESTRIKSJON
+			ADMINISTRATIVENHET,
+			ARKIVDEL,
+			ARKIVRESSURS,
+			ROLLE
         }
         
 	
 		public Identifikator SystemId { get; set; }
+		public string Tittel { get; set; }
 		
 	}
 }

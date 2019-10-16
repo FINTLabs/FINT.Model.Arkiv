@@ -10,14 +10,13 @@ using FINT.Model.Felles.Kompleksedatatyper;
 namespace FINT.Model.Administrasjon.Arkiv
 {
 
-    public class ArkivressursResource 
+    public class AutorisasjonResource 
     {
 
     
-        public Identifikator KildesystemId { get; set; }
         public Identifikator SystemId { get; set; }
         
-        public ArkivressursResource()
+        public AutorisasjonResource()
         {
             Links = new Dictionary<string, List<Link>>();
         }
@@ -36,19 +35,14 @@ namespace FINT.Model.Administrasjon.Arkiv
      
             
 
-        public void AddPersonalressurs(Link link)
+        public void AddTilgangsrestriksjon(Link link)
         {
-            AddLink("personalressurs", link);
+            AddLink("tilgangsrestriksjon", link);
         }
 
-        public void AddAutorisasjon(Link link)
+        public void AddArkivressurs(Link link)
         {
-            AddLink("autorisasjon", link);
-        }
-
-        public void AddTilgang(Link link)
-        {
-            AddLink("tilgang", link);
+            AddLink("arkivressurs", link);
         }
     }
 }

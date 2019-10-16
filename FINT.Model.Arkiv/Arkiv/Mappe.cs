@@ -13,6 +13,7 @@ namespace FINT.Model.Administrasjon.Arkiv
 	public abstract class Mappe {
 		public enum Relasjonsnavn
         {
+			ARKIVDEL,
 			AVSLUTTETAV,
 			OPPRETTETAV
         }

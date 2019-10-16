@@ -46,6 +46,11 @@ namespace FINT.Model.Administrasjon.Arkiv
      
             
 
+        public void AddArkivdel(Link link)
+        {
+            AddLink("arkivdel", link);
+        }
+
         public void AddAvsluttetAv(Link link)
         {
             AddLink("avsluttetAv", link);

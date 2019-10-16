@@ -15,6 +15,7 @@ namespace FINT.Model.Administrasjon.Arkiv
 
     
         public Identifikator SystemId { get; set; }
+        public string Tittel { get; set; }
         
         public TilgangResource()
         {
@@ -35,14 +36,24 @@ namespace FINT.Model.Administrasjon.Arkiv
      
             
 
+        public void AddAdministrativEnhet(Link link)
+        {
+            AddLink("administrativEnhet", link);
+        }
+
+        public void AddArkivdel(Link link)
+        {
+            AddLink("arkivdel", link);
+        }
+
+        public void AddArkivressurs(Link link)
+        {
+            AddLink("arkivressurs", link);
+        }
+
         public void AddRolle(Link link)
         {
             AddLink("rolle", link);
-        }
-
-        public void AddTilgangsrestriksjon(Link link)
-        {
-            AddLink("tilgangsrestriksjon", link);
         }
     }
 }

@@ -53,6 +53,11 @@ namespace FINT.Model.Administrasjon.Arkiv
             AddLink("administrativEnhet", link);
         }
 
+        public void AddArkivdel(Link link)
+        {
+            AddLink("arkivdel", link);
+        }
+
         public void AddSaksbehandler(Link link)
         {
             AddLink("saksbehandler", link);

@@ -9,15 +9,14 @@ using FINT.Model.Felles.Kompleksedatatyper;
 
 namespace FINT.Model.Administrasjon.Arkiv
 {
-	public class AdministrativEnhet {
+	public class Autorisasjon {
 		public enum Relasjonsnavn
         {
-			ORGANISASJONSELEMENT
+			TILGANGSRESTRIKSJON,
+			ARKIVRESSURS
         }
         
 	
-		public Periode Gyldighetsperiode { get; set; }
-		public string Navn { get; set; }
 		public Identifikator SystemId { get; set; }
 		
 	}

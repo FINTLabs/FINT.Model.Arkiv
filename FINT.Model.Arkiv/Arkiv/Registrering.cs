@@ -13,6 +13,7 @@ namespace FINT.Model.Administrasjon.Arkiv
 		public enum Relasjonsnavn
         {
 			ADMINISTRATIVENHET,
+			ARKIVDEL,
 			SAKSBEHANDLER,
 			ARKIVERTAV,
 			OPPRETTETAV
