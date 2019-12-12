@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
-    <Version>$([System.IO.File]::ReadAllText("version.txt"))</Version>
+    <Version>$([System.IO.File]::ReadAllText("$(MSBuildProjectDirectory)\..\version.txt"))</Version>
     <Authors>FINT</Authors>
     <PackageTags>fint</PackageTags>
   </PropertyGroup>
