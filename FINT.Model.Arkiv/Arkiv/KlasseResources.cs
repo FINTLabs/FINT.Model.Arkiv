@@ -4,7 +4,7 @@ using FINT.Model.Resource;
 
 namespace FINT.Model.Administrasjon.Arkiv
 {
-    public class PersonalmappeResources : AbstractCollectionResources<PersonalmappeResource>
+    public class KlasseResources : AbstractCollectionResources<KlasseResource>
     {
     }
 }

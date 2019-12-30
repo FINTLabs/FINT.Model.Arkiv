@@ -11,17 +11,6 @@ using FINT.Model.Administrasjon.Arkiv;
 namespace FINT.Model.Kultur.Kulturminnevern
 {
 	public class DispensasjonAutomatiskFredaKulturminne : Saksmappe {
-		public enum Relasjonsnavn
-        {
-			JOURNALENHET,
-			ADMINISTRATIVENHET,
-			SAKSANSVARLIG,
-			SAKSSTATUS,
-			ARKIVDEL,
-			AVSLUTTETAV,
-			OPPRETTETAV
-        }
-        
 	
 		public string KulturminneId { get; set; }
 		public Matrikkelnummer Matrikkelnummer { get; set; }

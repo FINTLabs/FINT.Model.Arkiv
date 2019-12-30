@@ -16,7 +16,8 @@ namespace FINT.Model.Administrasjon.Arkiv
 			ARKIVDEL,
 			SAKSBEHANDLER,
 			ARKIVERTAV,
-			OPPRETTETAV
+			OPPRETTETAV,
+			KLASSE
         }
         
 	

@@ -60,5 +60,10 @@ namespace FINT.Model.Administrasjon.Arkiv
         {
             AddLink("opprettetAv", link);
         }
+
+        public void AddKlasse(Link link)
+        {
+            AddLink("klasse", link);
+        }
     }
 }

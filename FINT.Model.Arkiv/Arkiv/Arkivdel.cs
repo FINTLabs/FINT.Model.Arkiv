@@ -12,6 +12,7 @@ namespace FINT.Model.Administrasjon.Arkiv
 	public class Arkivdel {
 		public enum Relasjonsnavn
         {
+			KLASSIFIKASJONSSYSTEM,
 			REGISTRERING,
 			MAPPE
         }
