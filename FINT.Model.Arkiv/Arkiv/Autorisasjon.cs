@@ -12,6 +12,7 @@ namespace FINT.Model.Administrasjon.Arkiv
 	public class Autorisasjon {
 		public enum Relasjonsnavn
         {
+			ADMINISTRATIVENHET,
 			TILGANGSRESTRIKSJON,
 			ARKIVRESSURS
         }

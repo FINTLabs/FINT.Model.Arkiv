@@ -35,6 +35,11 @@ namespace FINT.Model.Administrasjon.Arkiv
      
             
 
+        public void AddAdministrativenhet(Link link)
+        {
+            AddLink("administrativenhet", link);
+        }
+
         public void AddTilgangsrestriksjon(Link link)
         {
             AddLink("tilgangsrestriksjon", link);
